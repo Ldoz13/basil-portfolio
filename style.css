@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: aliceblue
 }
 
 html {
@@ -64,6 +65,11 @@ a:hover {
 
 .logo:hover {
   cursor: default;
+}
+#span1{
+  color: aliceblue;
+  background-color: black;
+  border-radius: 2px;
 }
 
 /* HAMBURGER MENU */
@@ -339,13 +345,13 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: left;
   gap: 0.5rem;
 }
 
